@@ -18,6 +18,6 @@
 
         var activeInputElement = inputElements[isSSH ? 1 : 0];
 
-        window.location.href = 'gittower://openRepo/' + encodeURI(activeInputElement.value);
+        window.location.href = 'github-mac://openRepo/' + encodeURI(activeInputElement.value);
     });
 }());
